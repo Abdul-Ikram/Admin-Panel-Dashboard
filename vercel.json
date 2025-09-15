@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.10",
+      "handler": "app.app"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/app/app.py" }
+  ]
+}
